@@ -1,0 +1,60 @@
+[04-Aug-2015 22:00:04 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:00:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:26:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:26:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:28:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:28:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:30:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:30:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:32:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:32:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:34:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:34:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:36:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:36:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:40:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:40:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:45:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:45:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:50:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:50:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:55:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 22:55:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:00:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:00:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:05:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:05:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:10:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:10:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:12:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:12:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:14:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:14:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:16:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:16:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:18:01 UTC] PHP Warning:  require_once(core/init.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:18:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/init.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 8
+[04-Aug-2015 23:20:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/mvestirs/public_html/core/init.php on line 2
+[04-Aug-2015 23:20:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/mvestirs/public_html/core/init.php on line 2
+[04-Aug-2015 23:20:03 UTC] PHP Warning:  require(functions/function.sanitize.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:20:03 UTC] PHP Warning:  require(functions/function.sanitize.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:20:03 UTC] PHP Fatal error:  require(): Failed opening required 'functions/function.sanitize.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:22:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/mvestirs/public_html/core/init.php on line 2
+[04-Aug-2015 23:22:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/mvestirs/public_html/core/init.php on line 2
+[04-Aug-2015 23:22:01 UTC] PHP Warning:  require(functions/function.sanitize.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:22:01 UTC] PHP Warning:  require(functions/function.sanitize.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:22:01 UTC] PHP Fatal error:  require(): Failed opening required 'functions/function.sanitize.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:24:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/mvestirs/public_html/core/init.php on line 2
+[04-Aug-2015 23:24:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/mvestirs/public_html/core/init.php on line 2
+[04-Aug-2015 23:24:01 UTC] PHP Warning:  require(functions/function.sanitize.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:24:01 UTC] PHP Warning:  require(functions/function.sanitize.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:24:01 UTC] PHP Fatal error:  require(): Failed opening required 'functions/function.sanitize.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/core/init.php on line 19
+[04-Aug-2015 23:26:01 UTC] PHP Warning:  require(classes/class.Config.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 20
+[04-Aug-2015 23:26:01 UTC] PHP Warning:  require(classes/class.Config.php): failed to open stream: No such file or directory in /home/mvestirs/public_html/cron/blic.update.php on line 20
+[04-Aug-2015 23:26:01 UTC] PHP Fatal error:  require(): Failed opening required 'classes/class.Config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/mvestirs/public_html/cron/blic.update.php on line 20
+[04-Aug-2015 23:29:21 UTC] PHP Fatal error:  Maximum execution time of 80 seconds exceeded in /home/mvestirs/public_html/functions/function.similar_city.php on line 22
+[04-Aug-2015 23:31:21 UTC] PHP Fatal error:  Maximum execution time of 80 seconds exceeded in /home/mvestirs/public_html/functions/function.similar_city.php on line 22
+[04-Aug-2015 23:41:21 UTC] PHP Fatal error:  Maximum execution time of 80 seconds exceeded in /home/mvestirs/public_html/functions/function.similar_city.php on line 22
+[05-Aug-2015 16:02:02 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/mvestirs/public_html/functions/function.similar_city.php on line 22
+[06-Aug-2015 04:02:04 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/mvestirs/public_html/functions/function.similar_city.php on line 29
+[06-Aug-2015 10:02:01 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/mvestirs/public_html/functions/function.similar_city.php on line 22

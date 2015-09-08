@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - gapi@localhost" uuid="ffc2d66b-50bb-4799-94d3-cd3f3eb3776c">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="gapi"/>
+    <table name="kategorija" schema="" catalog="gapi" type="TABLE">
+      <column name="id_kategorije" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="naziv" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_kategorije"/>
+    </table>
+    <table name="korisnici" schema="" catalog="gapi" type="TABLE">
+      <column name="id_korisnika" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="email" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="sifra" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ime" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prezime" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_korisnika"/>
+    </table>
+    <table name="nove_vesti_gradovi" schema="" catalog="gapi" type="TABLE">
+      <column name="id_n_v_g" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_vesti" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="grad" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="lat" sqlType="FLOAT" precision="12" scale="0" nullable="false" jdbcType="7"/>
+      <column name="lng" sqlType="FLOAT" precision="12" scale="0" nullable="false" jdbcType="7"/>
+      <column name="aktivan" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="partial" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="id_n_v_g"/>
+      <index name="id_vesti" unique="false" columns="id_vesti"/>
+    </table>
+    <table name="novine" schema="" catalog="gapi" type="TABLE">
+      <column name="id_novina" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="naziv_novina" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="link_novina" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="auto" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <primary-key name="PRIMARY" columns="id_novina"/>
+      <exported-key name="novine_rss_linkovi_ibfk_1" table="novine_rss_linkovi" schema="" catalog="gapi" columns="id_novina"/>
+      <index name="auto" unique="false" columns="auto"/>
+    </table>
+    <table name="novine_rss_linkovi" schema="" catalog="gapi" type="TABLE">
+      <column name="id_n_r_l" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_novina" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="link_rss" sqlType="TINYTEXT" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_n_r_l"/>
+      <foreign-key name="novine_rss_linkovi_ibfk_1" columns="id_novina" ref-table="novine" ref-schema="" ref-catalog="gapi" ref-columns="id_novina" update-rule="0" delete-rule="0" deferrability="2"/>
+      <index name="id_novina_2" unique="false" columns="id_novina"/>
+    </table>
+    <table name="vesti" schema="" catalog="gapi" type="TABLE">
+      <column name="id_vesti" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="naslov" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="link" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="kategorija" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="vreme" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="descr" sqlType="MEDIUMTEXT" precision="16777215" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="id_novina" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="automatic" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="datum_publikovanja" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="datum_unosa" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id_vesti"/>
+      <index name="datum_unosa" unique="false" columns="datum_unosa"/>
+      <index name="kategorija" unique="false" columns="kategorija,id_novina"/>
+    </table>
+  </data-source>
+</component>
